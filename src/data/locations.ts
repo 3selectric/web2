@@ -1,14 +1,18 @@
-export const serviceLocations = [
+export const locations = [
   {
     city: 'Mumbai',
-    areas: ['Andheri', 'Bandra', 'Powai', 'Worli', 'Juhu']
+    areas: ['Andheri', 'Bandra', 'Colaba', 'Dadar', 'Juhu', 'Powai']
   },
   {
     city: 'Delhi',
-    areas: ['Connaught Place', 'Dwarka', 'Rohini', 'Saket', 'Vasant Kunj']
+    areas: ['Connaught Place', 'Dwarka', 'Hauz Khas', 'Lajpat Nagar', 'Rohini']
   },
   {
     city: 'Bangalore',
-    areas: ['Koramangala', 'Indiranagar', 'Whitefield', 'HSR Layout', 'JP Nagar']
+    areas: ['Indiranagar', 'Koramangala', 'MG Road', 'Whitefield', 'HSR Layout']
+  },
+  {
+    city: 'Chennai',
+    areas: ['Anna Nagar', 'T Nagar', 'Adyar', 'Velachery', 'Mylapore']
   }
 ];

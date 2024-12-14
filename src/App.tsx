@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Query } from './pages/Query';
-import { Subscriptions } from './pages/Subscriptions';
+import { Subscription } from './pages/Subscription';
 import { About } from './pages/About';
 import { Help } from './pages/Help';
 import { TestimonialSlider } from './components/TestimonialSlider';
@@ -10,18 +10,22 @@ import { TestimonialSlider } from './components/TestimonialSlider';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
         <Navbar />
-        <main>
+        <main className="pt-16 pb-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/query" element={<Query />} />
-            <Route path="/subscriptions" element={<Subscriptions />} />
+            <Route path="/subscription" element={<Subscription />} />
             <Route path="/about" element={<About />} />
             <Route path="/help" element={<Help />} />
           </Routes>
         </main>
-        <TestimonialSlider />
+        <footer className="bg-white dark:bg-gray-800 py-8">
+          <div className="max-w-7xl mx-auto px-4">
+            <TestimonialSlider />
+          </div>
+        </footer>
       </div>
     </Router>
   );

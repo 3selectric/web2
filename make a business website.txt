@@ -1,0 +1,42 @@
+make a business website related to repair service for indian ev two-wheeler like ola, ather, vida, revolt, so on...called "3S Electric"
+
+ill list the details in page specific manner
+
+welcome page - make 5 or more slides on top where to make slogans and images related to the business like "streamline your EV service experience", "effortlessly book track your experience"...
+and make a query button to reach the query page
+
+query page - make a form with these mentioned input and names
+here is the section for query
+1.Select your EV brand (here list some ev brand for input)
+2.Select your EV Model (here list the various models of the selected ev brand)
+3.Write down your issue ( here make a text input field about 500 words )
+now go for next section as for customer details
+1.Customer name (make a input field for name)
+2.Customer Contact No (make a input field for 10 numbers as for indian ph number)
+now for service section
+1.ask whether it is on-spot work in road or a service in workshop
+2.if it is on-spot service ask for the city and area with a list, and tell them we'll reach in 10 mins
+3.if it is workshop service then ask for city and area then list the time-slot as per IST
+
+after all that make a terms of use checkbox to click
+then a BOOK NOW! button to book the service
+
+Subscription model page - here make a 3 divisioned vertical rectangles and make tiers as gold, silver, and bronze and make your own idea to it...this page must be classy and good looking with fine finish...
+
+about us page - make a elaborated definition about our company...like who are we...as i mentioned it at beginning
+
+help page - make page to have customer care specified one to contact the company via phone number and email
+
+SPECIAL MENTION :
+
+Menu bar : make a dynamical menu bar to access all those pages mentioned above make it well define.
+
+Testimonial : make a slide show at the bottom of all the web pages were all about the customer review and their wishes
+
+this website should be good looking fine with white and green theme and as dark mode black and green theme make a button in menu bar to switch light and dark mode...this is a EV based service so it means sustainable business make it clear with your design
+
+it would be better to have better transition to be a classy website...
+
+code details :
+pls dont use npm and npx!
+make it simple with basic methodology to make a website
