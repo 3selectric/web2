@@ -158,7 +158,7 @@ export const ServiceForm = ({ onSubmit }: ServiceFormProps) => {
                 required
               />
               <label className="ml-2 block text-sm text-gray-700 dark:text-gray-300">
-                On-spot Service (Emergency roadside assistance)
+                On-spot Service
               </label>
             </div>
             <div className="flex items-center">
