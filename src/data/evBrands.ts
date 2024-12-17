@@ -24,4 +24,9 @@ export const evBrands = [
     name: 'TVS Motor',
     models: ['iQube', 'iQube S', 'iQube ST']
   }
+  {
+    id: 'other',
+    name: 'Other',
+    models: ['Other']
+  }
 ];
